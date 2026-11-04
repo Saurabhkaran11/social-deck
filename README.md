@@ -4,7 +4,7 @@ A free, plain-English web app for learning **social media marketing, content cre
 
 It has three tracks: **Creator**, **Small business** and **Agency & freelancer**.
 
-Built with Next.js 14 (App Router), React 18 and TypeScript. It has no database: progress, notes and checklists are saved in the visitor's browser.
+Built with Next.js 16 (App Router), React 19 and TypeScript. It has no database: progress, notes and checklists are saved in the visitor's browser.
 
 ## What's inside
 
@@ -27,7 +27,7 @@ Built with Next.js 14 (App Router), React 18 and TypeScript. It has no database:
 ## Setup (about 10 minutes)
 
 **You need:**
-- Node.js 18.17 or newer (LTS recommended): https://nodejs.org/
+- Node.js 20.9 or newer (LTS recommended): https://nodejs.org/
 - Git: https://git-scm.com/downloads
 - A code editor such as VS Code: https://code.visualstudio.com/
 
@@ -45,6 +45,10 @@ npm run check-links   # checks every link in lib/content (bot-protected sites ar
 npm run build         # production build (fails if a lesson id is wrong)
 npm start             # serve the production build on http://localhost:3000
 ```
+
+## Deploy
+
+Host: Vercel. Node 20.9 or newer. No environment variables, database or API keys. The steps below walk through it.
 
 ## Launch it on the internet (free)
 
